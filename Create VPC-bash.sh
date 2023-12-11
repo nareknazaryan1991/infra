@@ -32,9 +32,9 @@ aws ec2 create-route --route-table-id $rtb_id --destination-cidr-block 0.0.0.0/0
 echo "Launching EC2 instance..."
 
 aws ec2 describe-key-pairs --region $AWS_REGION
-$KeyName="narek-key-1"
+#$KeyName= "narek-es2-2-key"
 
-aws ec2 run-instances \
+#aws ec2 run-instances \
   --image-id ami-0fc5d935ebf8bc3bc  \
   --instance-type t2.micro \
   --key-name $KeyName \
