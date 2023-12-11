@@ -23,5 +23,5 @@ jobs:
 
       - name: Run AWS CLI Script
         run: |
-          chmod +x path/to/your/aws_script.sh
-          ./path/to/your/aws_script.sh
+          chmod +x Create_VPC-bash.sh
+          ./Create_VPC-bash.sh
